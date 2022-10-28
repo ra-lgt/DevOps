@@ -1,8 +1,8 @@
-{%load static%}
+{<!--%load static%}-->
 <html>
 
     <head>
-<link rel="stylesheet" href="{% static 'css/page.css' %}">
+<link rel="stylesheet" href="../css/page.css">
 
     </head>
     <body>
@@ -14,7 +14,7 @@
 
                 <h2 class="form-headline">Cancel Reservation</h2>
                 <form id="submit-form" action="">
-                  {% csrf_token %}
+                 <!-- {% csrf_token %}-->
                   <p>
                     <input id="name" class="form-input" type="text" placeholder="Your Name*">
                     <small class="name-error"></small>
